@@ -1,3 +1,44 @@
+EN 
+
+# YouTube Comment Analysis - NLP Classification Project
+
+This project was developed to analyze YouTube comments using Natural Language Processing (NLP) techniques and classify them based on their meanings.
+
+In traditional sentiment analysis projects, comments are usually classified only as `positive`, `negative`, and `neutral`. In this project, a more detailed and product-oriented structure was targeted. Therefore, comments were classified into 5 different categories:
+
+- Positive
+- Negative
+- Neutral
+- Suggestion / Recommendation
+- Complaint
+
+## Project Purpose
+
+YouTube channels receive a large number of comments. Manually reviewing these comments is time-consuming and costly. This project helps content creators understand audience feedback faster by automatically analyzing comments.
+
+The goal is not only to determine whether a comment is positive or negative, but also to identify whether the user is making a suggestion, expressing a complaint, or writing a neutral comment.
+
+## Target Users
+
+This project was especially developed for:
+
+- YouTube content creators
+- Social media managers
+- Brand and product teams
+- Digital marketing teams
+- Channels with high comment volume
+
+## Model and Method
+
+A transformer-based `XLM-RoBERTa` model was used in this project.
+
+Base model used:
+
+```text
+cardiffnlp/twitter-xlm-roberta-base-sentiment
+```
+
+TR
 
 # YouTube Yorum Analizi - NLP Sınıflandırma Projesi
 
