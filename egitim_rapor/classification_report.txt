@@ -1,0 +1,13 @@
+Test Accuracy: %87.53
+
+               precision    recall  f1-score   support
+
+       olumlu      0.926     0.932     0.929       337
+      olumsuz      0.845     0.824     0.835       199
+         nötr      0.806     0.806     0.806       144
+öneri/tavsiye      0.923     0.947     0.935        38
+      şikayet      0.333     0.500     0.400         4
+
+     accuracy                          0.875       722
+    macro avg      0.767     0.802     0.781       722
+ weighted avg      0.876     0.875     0.876       722
